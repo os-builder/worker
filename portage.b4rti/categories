@@ -1,7 +1,0 @@
-cross-avr
-cross-armv6j-hardfloat-linux-gnueabi
-cross-x86_64-unknown-gnueabi
-cross-x86_64-*-*
-cross-x86_64-*-*
-cross-x86_64-pc-linux-gcc
-cross-xtensa-lx106-elf-gcc
