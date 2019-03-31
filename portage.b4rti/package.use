@@ -1,0 +1,54 @@
+app-doc/doxygen					dot
+app-editors/neovim 				python
+app-text/ghostscript-gpl 			cups
+app-text/poppler 				cairo
+app-text/xmlto 					text
+dev-db/sqlite					secure-delete
+dev-games/openscenegraph		 	ffmpeg sdl svg
+dev-games/mygui					ogre -opengl
+dev-java/swt 					cairo
+dev-lang/python 				sqlite
+dev-libs/glib 					dbus
+dev-libs/libpcre2 				pcre16
+dev-libs/libgcrypt				static-libs
+dev-libs/libgpg-error				static-libs
+dev-libs/libxml2 				python icu
+dev-libs/lzo					static-libs
+dev-libs/xmlsec					nss
+dev-lua/lpeg 					luajit
+dev-lua/mpack 					luajit
+dev-python/PyQt5  				widgets gui opengl
+dev-ruby/activerecord				postgres
+dev-util/astyle 				java
+media-libs/gegl 				cairo
+media-libs/gd					fontconfig
+media-libs/harfbuzz 				icu
+media-libs/libpng 				apng
+media-libs/libsdl2 				opengl
+media-libs/libsdl 				opengl
+media-libs/libvpx				postproc
+media-video/ffmpeg				openssl
+media-video/vlc 				blueray flac mpeg matroska opus vorbis vpx x264 x265
+net-libs/nodejs 				inspector icu
+net-libs/gnutls					tools
+net-libs/libmicrohttpd				messages
+net-analyzer/metasploit				nexpose openvas
+net-analyzer/openvas-libraries 			extras
+net-analyzer/openvas-manager			extras
+net-analyzer/openvas-scanner			extras
+net-analyzer/greenbone-security-assistant	extras
+net-analyzer/ospd				extras
+sys-apps/util-linux 				static-libs
+sys-auth/pambase 				elogind
+sys-auth/consolekit 				policykit
+sys-boot/grub					grub_platforms_pc
+sys-dev/gcc					go graphite mpx objc objc-gc objc++ pgo
+sys-libs/ncurses 				tinfo
+sys-libs/zlib 					minizip
+www-client/firefox 				bindist
+www-client/chromium				proprietary-codecs hangouts
+x11-libs/cairo 					X xcb
+x11-libs/gdk-pixbuf 				X
+x11-libs/libxcb 				xkb
+x11-libs/libxkbcommon 				X
+x11-libs/pango 					X

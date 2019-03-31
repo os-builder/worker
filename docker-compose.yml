@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+
+  worker:
+    build: 
+      dockerfile: 'Dockerfile'
+      context: '.'
+      # network: 'host'
+    command: ['nginx']
+    volumes:
+      - './packages:/usr/portage/packages'
