@@ -1,0 +1,4 @@
+x11-libs/cairo      xcb
+x11-libs/libxcb     xkb
+dev-lua/lpeg        luajit
+dev-lua/mpack       luajit

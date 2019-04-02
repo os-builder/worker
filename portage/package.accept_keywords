@@ -1,0 +1,4 @@
+app-admin/metalog   ~amd64
+dev-libs/unibilium  ~amd64
+app-editors/neovim  ~amd64
+dev-libs/msgpack    ~amd64

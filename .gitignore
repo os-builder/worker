@@ -1,0 +1,4 @@
+base/rootfs
+base/*.
+base/*.tar.xz
+packages/*

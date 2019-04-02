@@ -2,10 +2,23 @@ version: '3.4'
 services:
 
   worker:
-    build: 
-      dockerfile: 'Dockerfile'
-      context: '.'
-      # network: 'host'
-    command: ['nginx']
+    build: .
+    cap_add:
+    - SYS_PTRACE
+    security_opt:
+    - apparmor:unconfined
+    command:
+      - '--emptytree'
+      - '@world'
+      - 'x11-base/xorg-server'
+      - 'x11-wm/i3-gaps'
+      - 'x11-terms/rxvt-unicode'
+      - 'app-shells/zsh'
+      - 'app-editors/neovim'
+      - 'app-emulation/docker'
+      - 'app-emulation/docker-compose'
+      - 'app-emulation/qemu'
     volumes:
       - './packages:/usr/portage/packages'
+      - './portage:/etc/portage'
+
